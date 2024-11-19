@@ -2,6 +2,6 @@
 date = '2024-11-03T23:29:02+07:00'
 title = 'Postingan Pertama'
 draft = false
-tags = ["bacotan"]
+tags = ["bacotan", "ID"]
 +++
-Jadi ini perkenalan aja, blog ini isinya bacotan, kadang kritik pemerintah (iya saya mau masuk penjara), kadang kritik diri sendiri, kadang bahas pemrograman dan linux, mungkin bahas musik (?) (saya suka Acid Bath & Mgła btw).  
+Jadi ini perkenalan aja, blog ini isinya bacotan, kadang kritik hal-hal random kadang, bahas pemrograman dan linux atau teknologi lain, mungkin bahas musik (?) (saya suka Acid Bath & Mgła btw).  

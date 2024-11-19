@@ -1,0 +1,119 @@
+# TODO: ask opinion about outline
+# TODO: change code highlight to gruvbox 
+
+baseURL: 'http://kkkfasya.github.io/blog'
+title: fbadtakes
+paginate: 0
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: fbadtakes
+  description: "Fasya's bad takes"
+  keywords: [Blog, Yapping, PaperMod]
+  author: Kamal Fasya
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "2 January, 2006"
+  defaultTheme: dark
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: true
+  showtoc: false
+  tocopen: true
+
+  homeInfoParams:
+    title: fbadtakes
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/kkkfasya/"
+    - name: "x"
+      url: "https://x.com/kkkfasya/"
+    - name: "instagram"
+      url: "https://www.instagram.com/kkkfasya"
+
+  assets:
+    favicon: "assets/favicon.ico"
+
+  label:
+    text: "fbadtakes"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/kkkfasya/blog/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 10
+
+    - identifier: search posts
+      name: search
+      url: /search
+      weight: 20
+ 
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
