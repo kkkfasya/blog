@@ -3,7 +3,7 @@ date: '2024-12-07T11:57:56+07:00'
 draft: false
 title: 'How To Get Out of Linux Emergency Fucking Mode'
 showtoc: true
-tags: []
+tags: ["ENG", "Tutorial"]
 ---
 # Never Hard Shutdown
 So recently i had this problem because of hard shutdown, when i use [TimeShift](https://github.com/linuxmint/timeshift), it freezes (should've use [Snapper](https://wiki.archlinux.org/title/Snapper) anyway) and i panically turn off my laptop. I boot and kazoot it went to emergency mode, i cant even login to root (because it's disabled by default on Fedora)

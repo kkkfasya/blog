@@ -1,6 +1,6 @@
 # TODO: change code highlight to gruvbox 
 
-baseURL: 'http://kkkfasya.github.io/blog'
+baseURL: 'http://kkkfasya.web.id'
 title: fbadtakes
 paginate: 0
 theme: PaperMod
