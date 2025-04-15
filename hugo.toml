@@ -1,0 +1,68 @@
+baseURL = 'http://blog.kkkfasya.com'
+languageCode = 'en-us'
+title = "fasya's blog"
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+description = "fasya's blog"
+homeIntroTitle = 'A Compilation of bad takes, rants, and tutorials'
+
+homeIntroContent = """
+Yeah this is my blog sooo dont expect too much..
+"""
+
+# Appearance settings
+theme = 'light'
+colorPalette = 'base16-mocha'
+hideHeader = false
+
+# Intro on main page, content is markdown
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = false
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+# [[params.social]]
+# name = "linkedin"
+# url = "https://www.linkedin.com/in/user/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/kkkfasya"
+
+[[params.social]]
+name = "twitter"
+url = "https://x.com/kkkfasya"
+
+[[params.social]]
+name = "instagram"
+url = "https://instagram.com/kkkfasya"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'gruvbox-light'
