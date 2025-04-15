@@ -1,4 +1,4 @@
-baseURL = 'http://blog.kkkfasya.com'
+baseURL = 'http://blog.kkkfasya.web.id'
 languageCode = 'en-us'
 title = "fasya's blog"
 theme = 'typo'
