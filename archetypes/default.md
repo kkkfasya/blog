@@ -11,5 +11,6 @@ autonumber: true
 math: true
 showTags: true
 hideBackToTop: false
+hidePagination: false
 ---
 

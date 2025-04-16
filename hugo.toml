@@ -9,10 +9,10 @@ tag = 'tags'
 [params]
 description = "fasya's blog"
 homeIntroTitle = 'A Compilation of bad takes, rants, and tutorials'
-
 homeIntroContent = """
-Yeah this is my blog sooo dont expect too much..
+dont expect too much...
 """
+
 
 # Appearance settings
 theme = 'light'
@@ -29,6 +29,7 @@ homeCollection = 'posts'
 paginationSize = 100
 listSummaries = false
 listDateFormat = '2 Jan 2006'
+singleDateFormat = '2 Jan 2006'
 
 # Breadcrumbs
 [params.breadcrumbs]
@@ -61,6 +62,10 @@ url = "/"
 [[params.menu]]
 name = "posts"
 url = "/posts"
+
+[[params.menu]]
+name = "tags"
+url = "/tags"
 
 # Syntax highlight on code blocks
 [markup]
