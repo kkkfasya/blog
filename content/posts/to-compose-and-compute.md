@@ -1,7 +1,7 @@
 ---
-date: '{{ .Date }}'
+date: '2026-01-30T16:38:46+07:00'
 draft: true
-title: '{{ replace .File.ContentBaseName `-` ` ` | title }}'
+title: 'To Compose and Compute'
 tags: []
 summary: ""
 description: ""
