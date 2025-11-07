@@ -20,7 +20,7 @@ Copyright © 2024 Kamal Fasya. All content is licensed under CC BY-NC.
 
 # Appearance settings
 theme = 'light'
-colorPalette = 'base16-mocha'
+colorPalette = 'eink'
 hideHeader = false
 
 # Intro on main page, content is markdown
