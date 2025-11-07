@@ -12,6 +12,10 @@ homeIntroTitle = 'A Compilation of bad takes, rants, and tutorials'
 homeIntroContent = """
 dont expect too much...
 """
+showFooter = true
+footerContent = """
+Copyright © 2024 Kamal Fasya. All content is licensed under CC BY-NC.
+"""
 
 
 # Appearance settings
