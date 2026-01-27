@@ -19,8 +19,8 @@ Copyright © 2024 Kamal Fasya. All content is licensed under CC BY-NC.
 
 
 # Appearance settings
-theme = 'light'
-colorPalette = 'eink'
+theme = 'dark'
+colorPalette = 'base16-default'
 hideHeader = false
 
 # Intro on main page, content is markdown
@@ -74,4 +74,4 @@ url = "/tags"
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
-style = 'gruvbox-light'
+style = 'monokai'
