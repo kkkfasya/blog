@@ -8,7 +8,7 @@ description: "description"
 toc: true
 readTime: true
 autonumber: true
-math: true
+math: false
 showTags: true
 hideBackToTop: false
 hidePagination: false
